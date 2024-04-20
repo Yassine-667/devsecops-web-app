@@ -1,11 +1,11 @@
 :root {
-    --primary-color: #4a56e2;
-    --secondary-color: #6875f5;
-    --background-color: #192e57; /* Dark blue background */
+    --primary-color: #135D66;
+    --secondary-color: #265073;
+    --background-color: #265073; /* Dark blue background */
     --form-background-color: #fff;
     --text-color: #000000; /* Lighter text color for better contrast against dark background */
-    --button-bg-color: #4a56e2;
-    --button-hover-bg-color: #6875f5;
+    --button-bg-color: #2D9596;
+    --button-hover-bg-color: #135D66;
     --font-family: 'Roboto', sans-serif;
 }
 
@@ -16,7 +16,12 @@ body {
     margin: 0;
     padding: 20px;
 }
-
+.submit-btn {
+    background-color: #2D9596;
+}
+.submit-btn:hover{
+    background-color: #135D66;
+}
 .container {
     max-width: 500px; /* Reduced width */
 }
@@ -82,4 +87,8 @@ button:hover {
         width: 100%;
         padding: 0 20px;
     }
+}
+
+.prog-lang{
+    margin-top: 2.5%;
 }
